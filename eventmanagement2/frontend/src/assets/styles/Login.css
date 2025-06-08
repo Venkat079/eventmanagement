@@ -1,0 +1,95 @@
+.form-container {
+  max-width: 400px;
+  margin: 3rem auto;
+  background: #ffffff;
+  padding: 2.5rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.form-container h2 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 1.25rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  margin-top: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #004085;
+  box-shadow: 0 0 0 2px rgba(0, 64, 133, 0.2);
+}
+
+.form-container button[type="submit"] {
+  margin-top: 2rem;
+  margin-right: 10px;
+  width: 100%;
+  padding: 0.85rem;
+  background: #16406d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.25s ease-in-out;
+}
+
+.form-container button[type="submit"]:hover {
+  background: #002f6c;
+}
+
+.toggle-btn {
+  margin-top: 2rem;
+  margin-right: 10px;
+  width: 100%;
+  padding: 0.85rem;
+  background: #327fd1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.toggle-btn:hover {
+  background: #163ec1;
+}
+
+.password-field {
+  align-items: center;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .form-container {
+    padding: 2rem 1.25rem;
+  }
+}

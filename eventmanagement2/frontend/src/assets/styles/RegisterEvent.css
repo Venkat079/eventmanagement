@@ -1,0 +1,39 @@
+.register-event-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--bg-color, white);
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-event-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.register-event-container label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.register-event-container input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-event-container button {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  width: 100%;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}

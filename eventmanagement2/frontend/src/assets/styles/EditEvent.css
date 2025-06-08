@@ -1,0 +1,42 @@
+/* EditEvent.css */
+.edit-event-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 2rem auto;
+  background: var(--bg-color, white);
+  padding: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-event-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.edit-event-container label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.edit-event-container input,
+.edit-event-container textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-event-container button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.75rem;
+  background: #004085;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
